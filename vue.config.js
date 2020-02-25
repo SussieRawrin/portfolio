@@ -1,5 +1,5 @@
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const CompressionPlugin = require('compression-webpack-plugin');
@@ -16,12 +16,15 @@ module.exports = {
 
     plugins: [
 
+      // vue cli does this by default now
       // https://github.com/ampedandwired/html-webpack-plugin
-      new HtmlWebpackPlugin({
-        filename: 'index.html',
-        template: 'index.html',
-        inject: true,
-      }),
+      // new HtmlWebpackPlugin({
+      //   filename: 'index.html',
+      //   template: 'index.html',
+      //   inject: true,
+      // }),
+
+
       // copy custom static assets
       new CopyWebpackPlugin([
         {
