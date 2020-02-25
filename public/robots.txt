@@ -1,0 +1,6 @@
+# hi! hire me :)
+User-agent: *
+Disallow: 
+Disallow: /static/
+Disallow: /font/
+Sitemap: https://russellsorin.com/sitemap.xml
