@@ -1,0 +1,9 @@
+{
+  "name": "Russell Sorin - Web Developer // Digital Media",
+  "short_name": "Russell Sorin's Portfolio",
+  "theme_color": "#f44286",
+  "background_color": "#f9f9f9",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/"
+}
